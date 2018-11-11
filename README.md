@@ -2,15 +2,13 @@
 
 ![google sheet](https://raw.githubusercontent.com/rodik/validacija-OIBa-googlesheets/master/tablica%20oib.PNG)
 
-Google Apps Script funkcije za automatiziranu validaciju OIB-a prilikom unosa u tablicu. Provjera ISO7046(MOD 11, 10).
-
 Više o matematičkoj provjeri točnosti OIB-a i koristan alat za generiranje i provjeru OIB-a: http://oib.itcentrala.com/oib-generator/
 
-Za početnike: 
+## Za početnike: 
 - [Getting started](https://developers.google.com/apps-script/articles/tutorials) with Google Apps Script. 
 - Dodatno - https://zapier.com/learn/google-sheets/google-apps-script-tutorial/.
 
-Upute za korištenje:
+## Upute za korištenje:
 + Tools -> Script editor. [Sadržaj](https://raw.githubusercontent.com/rodik/validacija-OIBa-googlesheets/master/Funkcije.gs) fajla Funkcije.gs kopirati u otvoreni dokument.
 + Modificirati parametre po potrebi. Spremiti izmjene.
 + Kreirati kolonu s nazivom "OIB". Naziv je moguće konfigurirati u parametrima skripte.
