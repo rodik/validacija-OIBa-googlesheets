@@ -1,5 +1,6 @@
 # Google Sheets Validacija OIB-a
 
+![google sheet](https://raw.githubusercontent.com/rodik/validacija-OIBa-googlesheets/master/tablica%20oib.PNG)
 
 Google Apps Script funkcije za automatiziranu validaciju OIB-a prilikom unosa u tablicu. Provjera ISO7046(MOD 11, 10).
 
