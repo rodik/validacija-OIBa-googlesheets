@@ -34,16 +34,19 @@ var oib_column = 2;
 var first_oib_row = 2;
 ```
 Primjer podataka u sheetu:
+
 | Naziv                     | OIB       |    Komentar  | ...  |
-| -------------             |:---------:|    ---------:|-----:|
+| --------------------------|:---------:|-------------:|-----:|
 | Firma Krstić              |63915366313|ispravan OIB  |      |
 | Stranka opasnih namjera   |10739306512|neispravan OIB|      |
 | Obrt za usluge čekanja    |00708172183|ispravan OIB  |      |
 
 Ako je `write_validation_status_in_neighbour_column == true`, strukturu treba pripremiti na ovaj način:
-| Naziv                     | OIB       | OIB_validan|    Komentar  | ...  |
-| -------------             |:---------:| ----------:|    ---------:|-----:|
+
+| Naziv                     | OIB       |OIB_validan|    Komentar   | ...  |
+| --------------------------|:---------:|-----------:|-------------:|------|
 | Firma Krstić              |63915366313| TRUE       |ispravan OIB  |      |
 | Stranka opasnih namjera   |10739306512| FALSE      |neispravan OIB|      |
 | Obrt za usluge čekanja    |00708172183| TRUE       |ispravan OIB  |      |
+
 Kolona _OIB_validan_ automatski se popunjava promjenom vrijednosti u koloni _OIB_.
